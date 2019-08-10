@@ -1,7 +1,9 @@
-require "coveralls"
-Coveralls.wear!
+# frozen_string_literal: true
 
-require "haikunator"
+# require "coveralls"
+# Coveralls.wear!
+
+require 'silly-id'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
