@@ -1,10 +1,8 @@
-# SillyId
+# SillyId [![Gem Version](https://badge.fury.io/rb/silly-id.svg)](https://badge.fury.io/rb/silly-id)
 
-Generate locale specific Heroku-like memorable random names.
+Generate Heroku-like memorable random names - in different languages (currently supporting 🇬🇧 and 🇳🇱).
 
 The source repository was forked in order to support multiple languages, and to allow for easy customization of used nouns and adjectives.
-
-For now it supports English and Dutch, and open for contributions in other languages (see _Contributing_)
 
 ## Installation
 
@@ -47,7 +45,7 @@ SillyId.haiku(0, ' ') # => "green fire"
 
 - [x] English
 - [x] Dutch
-- [ ] Your language?
+- [ ] Adding your language is easy, see below ↓
 
 ## Contributing
 
