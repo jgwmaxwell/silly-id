@@ -157,7 +157,6 @@ pauw
 pelikaan
 pinguïn
 fazant
-varken
 duif
 ijsbeer
 pony
@@ -170,7 +169,6 @@ quetzal
 konijn
 wasbeer
 ram
-rat
 raaf
 hert
 panda
