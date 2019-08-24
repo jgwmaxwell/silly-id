@@ -32,14 +32,14 @@ module SillyId
 
     def supported_locales
       @supported_locales ||= begin
-        Dir.glob('lib/silly-id/words/*').map do |path|
-          File.basename(path, ".txt").split('_').first
+        Dir.glob(File.expand_path("../silly-id/words/*", __FILE__)).map do |path|
+          File.basename(path, ".txt").split('_').first.to_sym
         end.uniq.sort
       end
     end
 
     def locale_supported?(locale)
-      supported_locales.include?(locale.to_s)
+      supported_locales.include?(locale)
     end
 
     def locale
