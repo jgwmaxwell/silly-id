@@ -7,7 +7,7 @@ wind
 sea
 morning
 snow
-lake sunset
+lake
 pine
 shadow
 leaf
